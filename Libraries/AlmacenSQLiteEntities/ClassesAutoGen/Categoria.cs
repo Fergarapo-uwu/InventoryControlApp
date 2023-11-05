@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AlmacenSQLiteEntities
 {
-
+    [Table("Categoria")]
     public class Categoria
     {
         [Key]
